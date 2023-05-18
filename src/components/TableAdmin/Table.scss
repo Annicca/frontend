@@ -1,0 +1,117 @@
+.table{
+    margin: 60px auto 0 auto;
+    text-align: left;
+    border-spacing: 10px 30px;
+    border-collapse: collapse;
+    tr:first-child td{
+        padding: 0;
+        padding-top: 40px;
+        background-color: white;
+        padding-bottom: 30px;
+        text-align: right;
+    }
+    &-button{
+        display: block;
+        margin: 0 auto;
+        border: none;
+        background-color: inherit;
+        &_add{
+            padding: 6px 12px;
+            border-radius: 50%;
+            color: #FFF;
+            background: linear-gradient(270deg, #FFA15E 0%, #FFE974 100%);
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+
+            font-weight: 500;
+            font-size: 24px;
+            line-height: 25px;
+            text-align: center;
+        }
+    }
+    td{
+        
+        padding: 10px 20px;
+        border-bottom: 1px solid white;
+        transition: all 0.5s linear;
+    }
+    &__amount{
+        text-align: center;
+    }
+    th{
+        padding: 10px 20px;
+        border-bottom: 1px solid white;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+    }
+
+    th:nth-child(even)  {
+        background: #FFE974;
+    }
+    th:nth-child(odd)  {
+        background: #FFFAD1;
+    } 
+    
+    td:nth-child(even) {
+        background: #FFE974;
+     }
+    td:nth-child(odd) {
+        background: #FFFAD1;
+    }
+    
+    tr:last-child td{
+        border-bottom: none;
+    }
+    tr:last-child td:last-child{
+        border-bottom-right-radius: 10px;
+    }
+    tr:last-child td:first-child{
+         border-bottom-left-radius: 10px;
+    }
+    
+    tr:not(:first-child):hover td{
+        background: #FFD700;
+    }
+}
+
+.tr-last{
+    text-align: right;
+    // background: #FFE974;
+    // padding: 10px 20px;
+}
+
+.status{
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.table-message{
+    margin-top: 40px;
+    font-size: 24px;
+    font-weight: 600;
+    color: #BFBFBF;
+}
+
+.edit-table{
+    margin: 0;
+    margin-bottom : 40px;
+    th {
+        padding: 13px
+    }
+    td{
+        text-align: center;
+    }
+    button{
+        background-color: inherit;
+    }
+    input{
+        width: 47px;
+        height: 30px;
+        padding: 0;
+        border: none;
+        border-radius: 5px;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 30px;
+        text-align: center;
+    }
+}

@@ -1,0 +1,17 @@
+.detail-container{
+    height: 390px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-grow: 2;
+    font-size: 16px;
+    &__status{
+        color: #FF6B00;
+        font-weight: 500;
+        padding: 7px 0;
+    }
+    &__item{
+        padding: 7px 0;
+    }
+
+}

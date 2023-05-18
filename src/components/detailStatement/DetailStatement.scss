@@ -1,0 +1,45 @@
+.description-statement{
+
+    &__title{
+        font-weight: 500;
+        color: #FF6B00;
+        margin-bottom: 15px;
+        
+    }
+    &__text{
+        background: #FFF9C1;
+        border-radius: 10px;
+        padding: 15px;
+        max-width: 440px;
+    }
+    &__button{
+        padding: 8px 30px;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 19px;
+        color: #FFFFFF;
+        border-radius: 10px;
+        &:nth-child(1){
+            background: #FFD700;
+        }
+        &:nth-child(2){
+            background: #01C22B;
+        }
+        &:nth-child(3){
+            background: #FF6B00;
+        }
+        &:not(:nth-child(3)){
+            margin-right: 40px;
+        }
+        &:disabled{
+            background-color: #E5E5E5;
+        }
+    }
+    &__img-status{
+        margin-left: 21px;
+    }
+}
+.statement-title{
+    display: flex;
+    align-items: center;
+}

@@ -1,0 +1,47 @@
+.filter-hide{
+    display: none;
+}
+
+.filter{
+    display: block;
+    position: absolute;
+    max-width: 500px;
+    right: 7%;
+    margin-top: 20px;
+    padding: 20px 15px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.2);
+    background: #FFF8EE;
+    font-size: 14px;
+    font-weight: 500;
+    &__button-container{
+        display: flex;
+        justify-content: space-between;
+        margin-top: 30px;
+    }
+    &__button{
+        padding: 8px 10px;
+        background-color: #FFA15E;
+        border-radius: 8px;
+        font-weight: 600;
+    }
+}
+
+.group-filter{
+    margin-bottom: 15px;
+    
+    &__label{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &__input{
+        box-sizing: border-box;
+        border: 1px solid #BFBFBF;
+        border-radius: 10px;
+        padding: 5px 8px;
+        width: 160px;
+        margin-left: 50px;
+    }
+    
+}
