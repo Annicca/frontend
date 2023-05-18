@@ -1,0 +1,91 @@
+.main-container{
+    &-user{
+        margin: 0;
+        font-size: 24px;
+        line-height: 29px;
+        color: #000000;
+        font-weight: 500;
+        text-decoration: underline;
+        text-decoration-color: #FFD700;
+        text-decoration-style: solid;
+        text-decoration-thickness: 3px;
+        text-underline-offset: 7px;
+        margin-bottom: 48px;
+        &-change{
+            margin-left: 10px;
+            width: 30px;
+            height: 30px;
+            background-color: inherit;
+            border: none;
+            padding: 0;
+        }
+    }
+    &-form{
+        display: flex;
+        max-width: 460px;
+        min-height: 380px;
+        &-child1{
+            max-width: 155px;
+            flex: 1 1;
+            &-item{
+                margin: 0;
+                margin-bottom: 19px;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 19px;
+                padding-top: 16px;
+                box-sizing: border-box;
+            }
+        }
+        &-child2{
+            max-width: 300px;
+            flex: 2 1;
+            &-item{
+                margin: 0;
+                margin-bottom: 19px;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 19px;
+                &:first-child{
+                    margin: 0px;
+                    padding: 14px;
+                    margin-bottom: 9px;
+                }
+                &-input{
+                    font-weight: 400;
+                    font-size: 16px;
+                    border: none;
+                    border-radius: 10px;
+                    padding: 7px;
+                    border: 2px solid #FFD700;
+                    outline: none;
+                    transition: 0.3s all;
+                    &:focus{
+                        border: 2px solid #ff9100;
+                    }
+                }
+            }
+            &-box{
+                margin-top: 40px;
+                max-width: 373px;
+                display: flex;
+                justify-content: flex-start;
+                &-button{
+                    margin-right: 40px;
+                    background-color: #FFD700;
+                    color: white;
+                    border-radius: 10px;
+                    border: none;
+                    text-align: center;
+                    font-weight: 500;
+                    font-size: 16px;
+                    padding: 8px 23px;
+                    &:hover{
+                        background-color: #ffe75e;
+                    }
+                }
+            }
+
+        }
+    }
+}
